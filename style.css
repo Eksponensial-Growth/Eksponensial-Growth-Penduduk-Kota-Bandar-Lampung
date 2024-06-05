@@ -1,13 +1,13 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'bookman old style', sans-serif; /* Updated font */
+    font-family: 'bookman old style', sans-serif; /* Font yang diperbarui */
 }
 
 body {
     background: url("img/background.jpg");
-    background-size: cover; /* Ensures the background covers the entire screen */
-    font-family: 'bookman old style', sans-serif; /* Updated font */
+    background-size: cover; /* Memastikan latar belakang menutupi seluruh layar */
+    font-family: 'bookman old style', sans-serif; /* Font yang diperbarui */
     margin: 0;
     padding: 0;
     display: flex;
@@ -15,7 +15,7 @@ body {
     align-items: center;
     flex-direction: column;
     min-height: 100vh;
-    position: relative; /* Makes body a relative position container */
+    position: relative; /* Membuat body sebagai wadah dengan posisi relatif */
 }
 
 .header {
@@ -27,26 +27,35 @@ body {
     text-align: center;
 }
 
+.header h1 {
+    font-size: 2em; /* Menyesuaikan ukuran font judul utama */
+}
+
+.subtitle {
+    font-size: 1em; /* Setengah dari ukuran judul utama */
+    margin-top: 10px; /* Menambahkan ruang antara judul dan subtitle */
+}
+
 .logo-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: white; /* Adds background color to the logo container */
-    border-radius: 50px; /* Rounds the corners of the logo container */
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Adds shadow to the logo container */
-    padding: 10px; /* Adds padding inside the logo container */
-    margin-bottom: 10px; /* Adds margin below the logo container */
+    background-color: white; /* Menambahkan warna latar belakang ke wadah logo */
+    border-radius: 50px; /* Membulatkan sudut wadah logo */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Menambahkan bayangan ke wadah logo */
+    padding: 10px; /* Menambahkan padding di dalam wadah logo */
+    margin-bottom: 10px; /* Menambahkan margin di bawah wadah logo */
 }
 
 .logo {
-    width: 50px; /* Logo size */
+    width: 50px; /* Ukuran logo */
     height: 50px;
-    border-radius: 50%; /* Makes the logo circular */
-    margin: 0 10px; /* Adds space between logos */
+    border-radius: 50%; /* Membuat logo berbentuk bulat */
+    margin: 0 10px; /* Menambahkan ruang antar logo */
 }
 
 .square-logo {
-    border-radius: 0; /* Removes the border-radius to make it square */
+    border-radius: 0; /* Menghapus border-radius untuk membuatnya persegi */
 }
 
 .container {
@@ -54,12 +63,12 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: rgba(255, 255, 255, 0.8); /* Adds a transparent layer over the background */
+    background-color: rgba(255, 255, 255, 0.8); /* Menambahkan lapisan transparan di atas latar belakang */
     padding: 20px;
-    border-radius: 20px; /* Rounds the corners of the container */
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5); /* Adds a shadow for better effect */
-    max-width: 1000px; /* Sets the max width of the container */
-    width: 90%; /* Sets the width of the container for better display */
+    border-radius: 20px; /* Membulatkan sudut kontainer */
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5); /* Menambahkan bayangan untuk efek yang lebih baik */
+    max-width: 1000px; /* Menetapkan lebar maksimal kontainer */
+    width: 90%; /* Menetapkan lebar kontainer untuk tampilan yang lebih baik */
 }
 
 .input-container {
@@ -93,14 +102,14 @@ button:hover {
 }
 
 .chart-container {
-    width: 100%; /* Adjusts the width of the container */
-    height: 500px; /* Sets the height of the canvas */
+    width: 100%; /* Menyesuaikan lebar kontainer */
+    height: 500px; /* Menetapkan tinggi kanvas */
 }
 
 .group-info {
     margin-top: 20px;
     text-align: center;
-    font-size: small; /* Reduces the font size */
+    font-size: small; /* Mengurangi ukuran font */
 }
 
 .group-info p {
